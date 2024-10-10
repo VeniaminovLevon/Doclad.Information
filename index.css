@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.full_content {
+    background-color: black;
+    padding-top: 35px;
+}
+
+.container_title {
+    margin: 35px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.search {
+    width: 600px;
+    height: 400px;
+}
+
+.description {
+    display: grid;
+    grid-template-areas: 
+    'a b';
+    grid-column-gap: 50px;
+    margin: 27px 53px 0px 53px;
+}
+
+.container_description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 35px 0px 0px 0px;
+    grid-area: a;
+    color: white;
+}
+
+.search {
+    grid-area: b;
+}
+
+.text {
+    font-family: 'poppins';
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.title_type_search {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.type_search_text {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.type_search_header {
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.container_type_search {
+    margin: 35px 53px 0px 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_type_search {
+    margin-top: 75px;
+}
+
+.type_search {
+    width: 250px;
+    height: 325px;
+    border: 1.5px solid #fff;
+    border-radius: 5%;
+}
+
+.full_block_information_search {
+    margin: 65px 0px 0px 0px;
+}
+
+.container_information_search {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 25px 0px 0px 0px;
+}
+
+.information_search_header {
+    color: white;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.main_block_info {
+    display: flex;
+    margin: 35px 0px 0px 0px;
+}
+
+.container_information_search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 100px 0px 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.information_search {
+    padding: 10px 25px 10px 25px;
+}
+
+.informationSearch1 {
+    margin-top: 15px;
+}
+
+.informationSearch2 {
+    margin-bottom: 25px;
+}
+
+.information_search {
+    color: white;
+}
+
+.foto {
+    margin: 0px 80px 0px 0px;
+    border-radius: 5%;
+}
+
+.block_information_search {
+    margin-top: 75px;
+}
+
+.osnova {
+    margin-top: 75px;
+}
+
+.osnova_title {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.mini_block_osnova {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mini_block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 45px 0px 0px 0px;
+}
+
+.title_mini_block {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.text_mini_block {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.titles {
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.mini_block {
+    width: 280px;
+    height: 440px;
+    border: 1px solid #fff;
+    padding: 15px 11px 0px 11px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.footer_block {
+    margin-top: 30px;
+}
+
+.text_footer {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding-left: 25px;
+}
